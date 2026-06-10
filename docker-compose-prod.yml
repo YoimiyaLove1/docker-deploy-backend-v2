@@ -1,0 +1,7 @@
+services:
+  backend-new:
+    image: yoimiyalove1/234-deploylab-backend:new
+    pull_policy: always
+    ports:
+      - "8083:8080"
+    restart: unless-stopped
